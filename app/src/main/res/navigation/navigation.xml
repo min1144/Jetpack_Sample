@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tab1Fragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/tab1Fragment"
+        android:name="com.example.retrofittest.other.Tab1Fragment"
+        android:label="Tab1Fragment">
+
+        <action
+            android:id="@+id/action_tab1Fragment_to_tab2Fragment"
+            app:destination="@id/tab2Fragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/tab2Fragment"
+        android:name="com.example.retrofittest.other.Tab2Fragment"
+        android:label="Tab2Fragment"/>
+
+</navigation>

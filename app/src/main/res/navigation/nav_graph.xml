@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/oneFragment">
+
+
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.example.retrofittest.paging.presentation.OneFragment"
+        android:label="OneFragment">
+
+<!--        <action-->
+<!--            android:id="@+id/action_oneFragment_to_twoFragment"-->
+<!--            app:destination="@id/twoFragment" />-->
+
+    </fragment>
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/twoFragment"-->
+<!--        android:name="com.example.retrofittest.paging.presentation.TwoFragment"-->
+<!--        android:label="twoFragment">-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_twoFragment_to_threeFragment"-->
+<!--            app:destination="@id/threeFragment" />-->
+
+<!--    </fragment>-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/threeFragment"-->
+<!--        android:name="com.example.retrofittest.paging.presentation.ThreeFragment"-->
+<!--        android:label="threeFragment" />-->
+
+</navigation>

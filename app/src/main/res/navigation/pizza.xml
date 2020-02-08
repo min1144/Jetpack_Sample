@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action_pizza"
+    app:startDestination="@id/titleScreen">
+
+    <fragment
+        android:id="@+id/titleScreen"
+        android:name="com.example.retrofittest.other.pizza.Title"
+        android:label="Title">
+
+        <action
+            android:id="@+id/action_title_to_about"
+            app:destination="@id/aboutScreen"/>
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/aboutScreen"
+        android:name="com.example.retrofittest.other.pizza.About"
+        android:label="About"/>
+
+</navigation>
